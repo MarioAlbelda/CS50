@@ -1,2 +1,2 @@
 # CS50
-This repository contains all the practical exercises and the final project completed during the CS50’s Introduction to Programming with Python course. Each project showcases fundamental concepts of Python programming, including data structures, algorithms, object-oriented programming, etc. (https://cs50.harvard.edu/python/2022/)
+The CS50’s Introduction to Programming with Python course is a program offered by Harvard University through its CS50 initiative. This course serves as a foundation in programming and problem-solving, specifically using Python, one of the most versatile and widely used programming languages today.
