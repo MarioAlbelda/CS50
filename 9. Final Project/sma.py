@@ -11,7 +11,7 @@ def main():
 
 #Extracts the current price of the index and prints it in USD
 def real_time_data():
-    url = 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=60min&apikey=2Y3NDGM62ER2S4FA'
+    url = 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=60min&apikey=YOUR_API_KEY'
     r = requests.get(url)
     data = r.json()
 
