@@ -11,7 +11,7 @@ def main():
 
 # Function to extract the current price of the index and print it in USD
 def real_time_data():
-    url = 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=60min&apikey=YOUR_API_KEY'
+    url = 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=SPY&interval=60min&apikey=AGFWEQX342ZNC3Y7'
     r = requests.get(url)
     data = r.json()
 
@@ -26,7 +26,7 @@ def real_time_data():
 # Function to fetch and process historical data
 def historical_data():
     # Fetch weekly data
-    url = 'https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY&symbol=SPY&apikey=YOUR_API_KEY'
+    url = 'https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY&symbol=SPY&apikey=AGFWEQX342ZNC3Y7'
     r = requests.get(url)
     data = r.json()
 
